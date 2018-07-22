@@ -1,0 +1,35 @@
+.dropdown {
+	min-width: 500px;
+	display: flex;
+
+	position: absolute;
+	
+	top: 18%;
+	left:  9%;
+	right: 9%;
+	z-index: 999;
+	
+	background-color: rgba(245, 247,255, 1);
+
+
+}
+.dropdown  {
+	display: none;
+}
+.links li:hover > .dropdown  {
+	display: flex;
+}
+ul.drop1 {
+	
+	display: flex;
+	flex-direction: column;
+	font-size: 10px;
+	line-height: 16px;
+
+}
+.dropdown li ul {
+display: flex;
+}
+/*ul.drop1 li a {
+	padding: 10px;
+}*/
